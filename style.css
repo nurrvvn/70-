@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.container{
+    font-family: "Poppins", system-ui;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+}    
+  
+img{
+    width:580px;
+    height: 15rem;
+    border-radius: 1rem;
+    margin-bottom: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.info{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.info h1{
+    margin-bottom: 5px;
+}
+.prep{
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.Ingr{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.Inst{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.prep{
+    background-color: rgb(221, 192, 202);
+    width: 500px;
+    height: 130px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}    
+
+.prep ul{
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+.prep h4{
+    font-size: 20px;
+    color: rgb(172, 52, 52);
+    padding-top: 6px;
+    padding-left: 7px;
+}
+
+.nut{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.t{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.t h4{
+    color: rgb(172, 52, 52);;
+}
+h3{
+    color: rgb(139, 47, 14);
+}
